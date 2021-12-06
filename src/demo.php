@@ -84,7 +84,7 @@ class Cache
     {
         $filename = self::getFilename();
         $dirname = dirname($filename);
-        $1 // error
+
         if (!file_exists($dirname)) {
             mkdir($dirname, 0777, true);
         }
