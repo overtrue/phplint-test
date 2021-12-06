@@ -13,6 +13,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - name: Install dependencies
+      run: composer install
     - uses: overtrue/phplint@7.4
       with:
         path: .
