@@ -10,7 +10,7 @@
     ],
     "require": {
         "php": ">=7.0",
-        "laravel/framework: "*",
+        "laravel/framework: "*"
     },
     "require-dev": {
         "brainmaestro/composer-git-hooks": "^2.8",
