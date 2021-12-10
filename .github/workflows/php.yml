@@ -16,6 +16,12 @@ jobs:
     - name: Install dependencies
       run: composer update --no-dev 
     - uses: overtrue/phplint@7.4
+    - name: check with exclude option
       with:
         path: .
         options: --exclude=*.log --exclude=vendor
+
+    - uses: overtrue/phplint@7.4
+    - name: check without exclude option
+      with:
+        path: .
