@@ -20,7 +20,6 @@ jobs:
       with:
         path: .
         options: --exclude=*.log --exclude=vendor
-
     - uses: overtrue/phplint@7.4
     - name: check without exclude option
       with:
